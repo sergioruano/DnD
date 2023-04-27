@@ -9,11 +9,8 @@ from colorama import Fore, Back, Style
 # 8 x 1/4 CR: Elk
 # Roll to Hit
 count = 1
-Ram = (random.randint(1,6))
-Charge = (random.randint(2, 12))
-Hooves = (random.randint(2, 8))
 
-print(f"Formula: Roll + Modifier = Total \n")
+print(f"\nFormula: Roll + Modifier = Total \n")
 while(count < 9):
     ToHit = (random.randint(1,20))
     if ToHit == 20:
